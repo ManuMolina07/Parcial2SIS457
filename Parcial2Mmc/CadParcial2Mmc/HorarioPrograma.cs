@@ -24,7 +24,8 @@ namespace CadParcial2Mmc
         public string usuarioRegistro { get; set; }
         public System.DateTime fechaRegistro { get; set; }
         public short estado { get; set; }
-    
+
+        public short clasificacion { get; set; }
         public virtual Canal Canal { get; set; }
     }
 }

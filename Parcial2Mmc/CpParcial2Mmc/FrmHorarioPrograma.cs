@@ -30,6 +30,7 @@ namespace CpParcial2Mmc
             dgvListaHorarios.Columns["conductorPrincipal"].HeaderText = "Conductor Principal";
             dgvListaHorarios.Columns["fechaRegistro"].HeaderText = "Fecha de Registro";
             dgvListaHorarios.Columns["diaSemana"].HeaderText = "Día de la Semana";
+            dgvListaHorarios.Columns["clasificacion"].HeaderText = "Clasificación";
 
             if (HorarioProgramas.Count > 0) dgvListaHorarios.CurrentCell = dgvListaHorarios.Rows[0].Cells["canal"];
             btnEditar.Enabled = HorarioProgramas.Count > 0;
@@ -71,6 +72,7 @@ namespace CpParcial2Mmc
             dtpHoraFin.Value = DateTime.Today;
             txtDiaSemana.Clear();
             resetearErrores();
+            cbxClasificacion.SelectedIndex = (short)Estado.Activo;
         }
 
         private void resetearErrores()
@@ -107,6 +109,7 @@ namespace CpParcial2Mmc
             dtpHoraFin.Value = DateTime.Today.Add(horarioPrograma.horaFin);
             txtDiaSemana.Text = horarioPrograma.diaSemana;
             txtPrincipal.Text = horarioPrograma.conductorPrincipal;
+            cbxClasificacion.SelectedValue = horarioPrograma.clasificacion;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -203,7 +206,8 @@ namespace CpParcial2Mmc
                     horaFin = dtpHoraFin.Value.TimeOfDay,
                     diaSemana = txtDiaSemana.Text.Trim(),
                     conductorPrincipal = txtPrincipal.Text.Trim(),
-                    usuarioRegistro = "admin"
+                    usuarioRegistro = "admin",
+                    clasificacion = short.Parse(cbxClasificacion.SelectedValue.ToString())
                 };
 
                 if (esNuevo)
@@ -276,6 +280,11 @@ namespace CpParcial2Mmc
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void cbxCanal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

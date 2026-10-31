@@ -62,6 +62,8 @@
             this.erpHoraInicio = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpHoraFin = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpDiaSemana = new System.Windows.Forms.ErrorProvider(this.components);
+            this.cbxClasificacion = new System.Windows.Forms.ComboBox();
+            this.lblClasificacion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaHorarios)).BeginInit();
             this.gbxLista.SuspendLayout();
             this.pnlAcciones.SuspendLayout();
@@ -182,6 +184,8 @@
             // 
             // gbxDatos
             // 
+            this.gbxDatos.Controls.Add(this.lblClasificacion);
+            this.gbxDatos.Controls.Add(this.cbxClasificacion);
             this.gbxDatos.Controls.Add(this.txtDiaSemana);
             this.gbxDatos.Controls.Add(this.lblDiaSemana);
             this.gbxDatos.Controls.Add(this.btnGuardar);
@@ -251,7 +255,7 @@
             // dtpHoraFin
             // 
             this.dtpHoraFin.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtpHoraFin.Location = new System.Drawing.Point(577, 51);
+            this.dtpHoraFin.Location = new System.Drawing.Point(577, 45);
             this.dtpHoraFin.Name = "dtpHoraFin";
             this.dtpHoraFin.ShowUpDown = true;
             this.dtpHoraFin.Size = new System.Drawing.Size(200, 24);
@@ -290,6 +294,7 @@
             this.cbxCanal.Name = "cbxCanal";
             this.cbxCanal.Size = new System.Drawing.Size(225, 26);
             this.cbxCanal.TabIndex = 12;
+            this.cbxCanal.SelectedIndexChanged += new System.EventHandler(this.cbxCanal_SelectedIndexChanged);
             // 
             // lblPrincipal
             // 
@@ -304,7 +309,7 @@
             // lblFin
             // 
             this.lblFin.AutoSize = true;
-            this.lblFin.Location = new System.Drawing.Point(460, 57);
+            this.lblFin.Location = new System.Drawing.Point(460, 50);
             this.lblFin.Name = "lblFin";
             this.lblFin.Size = new System.Drawing.Size(64, 18);
             this.lblFin.TabIndex = 3;
@@ -390,6 +395,25 @@
             // 
             this.erpDiaSemana.ContainerControl = this;
             // 
+            // cbxClasificacion
+            // 
+            this.cbxClasificacion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxClasificacion.FormattingEnabled = true;
+            this.cbxClasificacion.Location = new System.Drawing.Point(577, 76);
+            this.cbxClasificacion.Name = "cbxClasificacion";
+            this.cbxClasificacion.Size = new System.Drawing.Size(225, 26);
+            this.cbxClasificacion.TabIndex = 21;
+            // 
+            // lblClasificacion
+            // 
+            this.lblClasificacion.AutoSize = true;
+            this.lblClasificacion.Location = new System.Drawing.Point(460, 81);
+            this.lblClasificacion.Name = "lblClasificacion";
+            this.lblClasificacion.Size = new System.Drawing.Size(96, 18);
+            this.lblClasificacion.TabIndex = 22;
+            this.lblClasificacion.Text = "Clasificacion:";
+            this.lblClasificacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // FrmHorarioPrograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -461,6 +485,8 @@
         private System.Windows.Forms.Label lblDiaSemana;
         private System.Windows.Forms.TextBox txtDiaSemana;
         private System.Windows.Forms.ErrorProvider erpDiaSemana;
+        private System.Windows.Forms.Label lblClasificacion;
+        private System.Windows.Forms.ComboBox cbxClasificacion;
     }
 }
 

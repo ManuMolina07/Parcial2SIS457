@@ -22,6 +22,8 @@ namespace CadParcial2Mmc
         public string diaSemana { get; set; }
         public string conductorPrincipal { get; set; }
         public short estado { get; set; }
+
+        public short clasificacion { get; set; }
         public System.DateTime fechaRegistro { get; set; }
     }
 }

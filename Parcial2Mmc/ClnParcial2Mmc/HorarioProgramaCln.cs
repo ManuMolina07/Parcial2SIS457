@@ -1,4 +1,5 @@
-﻿using CadParcial2Mmc;
+﻿
+using CadParcial2Mmc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,8 @@ namespace ClnParcial2Mmc
                     .Where(x => x.titulo == horario.titulo &&
                                 x.idCanal == horario.idCanal &&
                                 x.diaSemana == horario.diaSemana &&
-                                x.horaInicio == horario.horaInicio)
+                                x.horaInicio == horario.horaInicio &&
+                                x.clasificacion == horario.clasificacion)
                     .FirstOrDefault();
 
                 if (existe != null)
@@ -42,6 +44,7 @@ namespace ClnParcial2Mmc
                 existe.horaInicio = horario.horaInicio;
                 existe.horaFin = horario.horaFin;
                 existe.diaSemana = horario.diaSemana;
+                existe.clasificacion = horario.clasificacion;
                 existe.conductorPrincipal = horario.conductorPrincipal;
                 existe.usuarioRegistro = "admin";
 

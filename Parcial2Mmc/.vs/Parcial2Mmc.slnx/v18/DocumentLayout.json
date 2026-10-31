@@ -1,25 +1,35 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\",
+  "WorkspaceRootPath": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32BBFA54-1C1D-42CA-9504-9BA8503EB320}|ClnParcial2Mmc\\ClnParcial2Mmc.csproj|f:\\materias\\sis457\\segundo_parcial_sis457\\parcial2mmc\\clnparcial2mmc\\horarioprogramacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2E6D9FB-D614-4795-9D3E-2608E7974BE8}|CadParcial2Mmc\\CadParcial2Mmc.csproj|f:\\materias\\sis457\\parcial2sis457\\parcial2sis457\\parcial2mmc\\cadparcial2mmc\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{A2E6D9FB-D614-4795-9D3E-2608E7974BE8}|CadParcial2Mmc\\CadParcial2Mmc.csproj|solutionrelative:cadparcial2mmc\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32BBFA54-1C1D-42CA-9504-9BA8503EB320}|ClnParcial2Mmc\\ClnParcial2Mmc.csproj|f:\\materias\\sis457\\parcial2sis457\\parcial2sis457\\parcial2mmc\\clnparcial2mmc\\horarioprogramacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32BBFA54-1C1D-42CA-9504-9BA8503EB320}|ClnParcial2Mmc\\ClnParcial2Mmc.csproj|solutionrelative:clnparcial2mmc\\horarioprogramacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D755744-B340-49D0-807D-1AA4A7CCA0D8}|CpParcial2Mmc\\CpParcial2Mmc.csproj|F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\cpparcial2mmc\\frmhorarioprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6D755744-B340-49D0-807D-1AA4A7CCA0D8}|CpParcial2Mmc\\CpParcial2Mmc.csproj|F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\cpparcial2mmc\\frmhorarioprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D755744-B340-49D0-807D-1AA4A7CCA0D8}|CpParcial2Mmc\\CpParcial2Mmc.csproj|solutionrelative:cpparcial2mmc\\frmhorarioprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D755744-B340-49D0-807D-1AA4A7CCA0D8}|CpParcial2Mmc\\CpParcial2Mmc.csproj|F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\cpparcial2mmc\\frmhorarioprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6D755744-B340-49D0-807D-1AA4A7CCA0D8}|CpParcial2Mmc\\CpParcial2Mmc.csproj|solutionrelative:cpparcial2mmc\\frmhorarioprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\ddl_dml_segundoPracial.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2E6D9FB-D614-4795-9D3E-2608E7974BE8}|CadParcial2Mmc\\CadParcial2Mmc.csproj|F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\cadparcial2mmc\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{A2E6D9FB-D614-4795-9D3E-2608E7974BE8}|CadParcial2Mmc\\CadParcial2Mmc.csproj|solutionrelative:cadparcial2mmc\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{6D755744-B340-49D0-807D-1AA4A7CCA0D8}|CpParcial2Mmc\\CpParcial2Mmc.csproj|f:\\materias\\sis457\\parcial2sis457\\parcial2sis457\\parcial2mmc\\cpparcial2mmc\\frmhorarioprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D755744-B340-49D0-807D-1AA4A7CCA0D8}|CpParcial2Mmc\\CpParcial2Mmc.csproj|solutionrelative:cpparcial2mmc\\frmhorarioprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E6D9FB-D614-4795-9D3E-2608E7974BE8}|CadParcial2Mmc\\CadParcial2Mmc.csproj|f:\\materias\\sis457\\parcial2sis457\\parcial2sis457\\parcial2mmc\\cadparcial2mmc\\pacanallistar_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E6D9FB-D614-4795-9D3E-2608E7974BE8}|CadParcial2Mmc\\CadParcial2Mmc.csproj|solutionrelative:cadparcial2mmc\\pacanallistar_result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\ddl_dml_segundoPracial.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\ddl_dml_segundoPracial.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,60 +48,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HorarioProgramaCln.cs",
-              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\ClnParcial2Mmc\\HorarioProgramaCln.cs",
-              "RelativeDocumentMoniker": "ClnParcial2Mmc\\HorarioProgramaCln.cs",
-              "ToolTip": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\ClnParcial2Mmc\\HorarioProgramaCln.cs",
-              "RelativeToolTip": "ClnParcial2Mmc\\HorarioProgramaCln.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowDwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T02:40:03.354Z",
-              "EditorCaption": ""
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\CadParcial2Mmc\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadParcial2Mmc\\Modelo.edmx",
+              "ToolTip": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\CadParcial2Mmc\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadParcial2Mmc\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-10-31T15:03:30.029Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmHorarioPrograma.cs",
-              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\CpParcial2Mmc\\FrmHorarioPrograma.cs",
-              "RelativeDocumentMoniker": "CpParcial2Mmc\\FrmHorarioPrograma.cs",
-              "ToolTip": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\CpParcial2Mmc\\FrmHorarioPrograma.cs",
-              "RelativeToolTip": "CpParcial2Mmc\\FrmHorarioPrograma.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO8AAAAAAAAAAAAAAA==",
+              "Title": "HorarioProgramaCln.cs",
+              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\ClnParcial2Mmc\\HorarioProgramaCln.cs",
+              "RelativeDocumentMoniker": "ClnParcial2Mmc\\HorarioProgramaCln.cs",
+              "ToolTip": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\ClnParcial2Mmc\\HorarioProgramaCln.cs",
+              "RelativeToolTip": "ClnParcial2Mmc\\HorarioProgramaCln.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T01:49:36.356Z"
+              "WhenOpened": "2026-10-31T14:14:42.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmHorarioPrograma.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\CpParcial2Mmc\\FrmHorarioPrograma.cs",
+              "Title": "FrmHorarioPrograma.cs",
+              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\CpParcial2Mmc\\FrmHorarioPrograma.cs",
               "RelativeDocumentMoniker": "CpParcial2Mmc\\FrmHorarioPrograma.cs",
-              "ToolTip": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\CpParcial2Mmc\\FrmHorarioPrograma.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CpParcial2Mmc\\FrmHorarioPrograma.cs [Dise\u00F1o]",
+              "ToolTip": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\CpParcial2Mmc\\FrmHorarioPrograma.cs",
+              "RelativeToolTip": "CpParcial2Mmc\\FrmHorarioPrograma.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAiwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-30T19:29:39.281Z"
+              "WhenOpened": "2026-10-31T01:49:36.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ddl_dml_segundoPracial.sql",
+              "Title": "ddl_dml_segundoPracial.sql ",
               "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\ddl_dml_segundoPracial.sql",
-              "RelativeDocumentMoniker": "..\\ddl_dml_segundoPracial.sql",
-              "ToolTip": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\ddl_dml_segundoPracial.sql",
-              "RelativeToolTip": "..\\ddl_dml_segundoPracial.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\Segundo_parcial_SIS457\\ddl_dml_segundoPracial.sql",
+              "ToolTip": "ddl_dml_segundoPracial.sql ",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-10-30T23:10:12.264Z"
+              "WhenOpened": "2026-10-31T14:08:17.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Modelo.edmx [Diagram1]",
-              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\CadParcial2Mmc\\Modelo.edmx",
-              "RelativeDocumentMoniker": "CadParcial2Mmc\\Modelo.edmx",
-              "ToolTip": "F:\\MATERIAS\\SIS457\\Segundo_parcial_SIS457\\Parcial2Mmc\\CadParcial2Mmc\\Modelo.edmx [Diagram1]",
-              "RelativeToolTip": "CadParcial2Mmc\\Modelo.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2026-10-31T01:53:40.16Z"
+              "Title": "FrmHorarioPrograma.cs [Dise\u00F1o]",
+              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\CpParcial2Mmc\\FrmHorarioPrograma.cs",
+              "RelativeDocumentMoniker": "CpParcial2Mmc\\FrmHorarioPrograma.cs",
+              "ToolTip": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\CpParcial2Mmc\\FrmHorarioPrograma.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CpParcial2Mmc\\FrmHorarioPrograma.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T14:23:15.546Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "paCanalListar_Result.cs",
+              "DocumentMoniker": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\CadParcial2Mmc\\paCanalListar_Result.cs",
+              "RelativeDocumentMoniker": "CadParcial2Mmc\\paCanalListar_Result.cs",
+              "ToolTip": "F:\\MATERIAS\\SIS457\\Parcial2SIS457\\Parcial2SIS457\\Parcial2Mmc\\CadParcial2Mmc\\paCanalListar_Result.cs",
+              "RelativeToolTip": "CadParcial2Mmc\\paCanalListar_Result.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T14:28:42.505Z",
+              "EditorCaption": ""
             }
           ]
         }
