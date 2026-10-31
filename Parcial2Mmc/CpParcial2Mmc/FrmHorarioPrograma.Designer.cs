@@ -61,6 +61,7 @@
             this.erpPrincipal = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpHoraInicio = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpHoraFin = new System.Windows.Forms.ErrorProvider(this.components);
+            this.erpDiaSemana = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaHorarios)).BeginInit();
             this.gbxLista.SuspendLayout();
             this.pnlAcciones.SuspendLayout();
@@ -70,6 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpPrincipal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpHoraInicio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpHoraFin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpDiaSemana)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvListaHorarios
@@ -384,6 +386,10 @@
             // 
             this.erpHoraFin.ContainerControl = this;
             // 
+            // erpDiaSemana
+            // 
+            this.erpDiaSemana.ContainerControl = this;
+            // 
             // FrmHorarioPrograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -415,6 +421,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.erpPrincipal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpHoraInicio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.erpHoraFin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpDiaSemana)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -453,6 +460,7 @@
         private System.Windows.Forms.ErrorProvider erpHoraFin;
         private System.Windows.Forms.Label lblDiaSemana;
         private System.Windows.Forms.TextBox txtDiaSemana;
+        private System.Windows.Forms.ErrorProvider erpDiaSemana;
     }
 }
 

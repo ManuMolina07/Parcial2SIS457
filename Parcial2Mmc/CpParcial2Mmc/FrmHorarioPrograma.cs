@@ -69,6 +69,7 @@ namespace CpParcial2Mmc
             txtPrincipal.Clear();
             dtpHoraInicio.Value = DateTime.Today;
             dtpHoraFin.Value = DateTime.Today;
+            txtDiaSemana.Clear();
             resetearErrores();
         }
 
@@ -79,6 +80,7 @@ namespace CpParcial2Mmc
             erpPrincipal.Clear();
             erpHoraInicio.Clear();
             erpHoraFin.Clear();
+            erpDiaSemana.Clear();
 
         }
 
@@ -153,6 +155,44 @@ namespace CpParcial2Mmc
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            resetearErrores();
+
+            bool hayError = false;
+
+            if (cbxCanal.SelectedValue == null)
+            {
+                erpCanal.SetError(cbxCanal, "Seleccione un canal");
+                hayError = true;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtPrograma.Text))
+            {
+                erpPrograma.SetError(txtPrograma, "Ingrese el nombre del programa");
+                hayError = true;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtPrincipal.Text))
+            {
+                erpPrincipal.SetError(txtPrincipal, "Ingrese el conductor principal");
+                hayError = true;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtDiaSemana.Text))
+            {
+                erpDiaSemana.SetError(txtDiaSemana, "Ingrese el día de la semana");
+                hayError = true;
+            }
+
+            if (dtpHoraInicio.Value.TimeOfDay >= dtpHoraFin.Value.TimeOfDay)
+            {
+                erpHoraInicio.SetError(dtpHoraInicio, "La hora de inicio debe ser menor que la hora de fin");
+                erpHoraFin.SetError(dtpHoraFin, "La hora de fin debe ser mayor que la hora de inicio");
+                hayError = true;
+            }
+
+            if (hayError)
+                return;
+
             try
             {
                 var horarioPrograma = new HorarioPrograma
@@ -169,7 +209,7 @@ namespace CpParcial2Mmc
                 if (esNuevo)
                 {
                     horarioPrograma.fechaRegistro = DateTime.Now;
-                    horarioPrograma.estado = (short)Estado.Activo;
+                    horarioPrograma.estado = 1;
 
                     HorarioProgramaCln.crear(horarioPrograma);
                 }
@@ -183,12 +223,7 @@ namespace CpParcial2Mmc
                 listar();
                 btnCancelar.PerformClick();
 
-                MessageBox.Show(
-                    "Registro guardado correctamente",
-                    "Gestión de Programas TV",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information
-                );
+                MessageBox.Show("Registro guardado correctamente");
             }
             catch (Exception ex)
             {
