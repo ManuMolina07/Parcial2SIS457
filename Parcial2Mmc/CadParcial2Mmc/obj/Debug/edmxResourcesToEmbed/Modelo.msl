@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Parcial2MmcModelStoreContainer" CdmEntityContainer="Parcial2MmcEntities">
+    <EntitySetMapping Name="Canal">
+      <EntityTypeMapping TypeName="Parcial2MmcModel.Canal">
+        <MappingFragment StoreEntitySet="Canal">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="frecuencia" ColumnName="frecuencia" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HorarioPrograma">
+      <EntityTypeMapping TypeName="Parcial2MmcModel.HorarioPrograma">
+        <MappingFragment StoreEntitySet="HorarioPrograma">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idCanal" ColumnName="idCanal" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="horaInicio" ColumnName="horaInicio" />
+          <ScalarProperty Name="horaFin" ColumnName="horaFin" />
+          <ScalarProperty Name="diaSemana" ColumnName="diaSemana" />
+          <ScalarProperty Name="conductorPrincipal" ColumnName="conductorPrincipal" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="paCanalListar" FunctionName="Parcial2MmcModel.Store.paCanalListar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Parcial2MmcModel.paCanalListar_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="frecuencia" ColumnName="frecuencia" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="paHorarioProgramaListar" FunctionName="Parcial2MmcModel.Store.paHorarioProgramaListar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Parcial2MmcModel.paHorarioProgramaListar_Result">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idCanal" ColumnName="idCanal" />
+          <ScalarProperty Name="canal" ColumnName="canal" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="horaInicio" ColumnName="horaInicio" />
+          <ScalarProperty Name="horaFin" ColumnName="horaFin" />
+          <ScalarProperty Name="diaSemana" ColumnName="diaSemana" />
+          <ScalarProperty Name="conductorPrincipal" ColumnName="conductorPrincipal" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

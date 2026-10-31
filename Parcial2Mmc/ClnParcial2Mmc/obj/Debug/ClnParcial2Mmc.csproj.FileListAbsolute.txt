@@ -1,0 +1,15 @@
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\ClnParcial2Mmc.dll.config
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\ClnParcial2Mmc.dll
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\ClnParcial2Mmc.pdb
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\CadParcial2Mmc.dll
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\EntityFramework.dll
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\EntityFramework.SqlServer.dll
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\CadParcial2Mmc.pdb
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\CadParcial2Mmc.dll.config
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\EntityFramework.xml
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\bin\Debug\EntityFramework.SqlServer.xml
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\obj\Debug\ClnParcial2Mmc.csproj.AssemblyReference.cache
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\obj\Debug\ClnParcial2Mmc.csproj.CoreCompileInputs.cache
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\obj\Debug\ClnParci.993EAE44.Up2Date
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\obj\Debug\ClnParcial2Mmc.dll
+F:\MATERIAS\SIS457\Segundo_parcial_SIS457\Parcial2Mmc\ClnParcial2Mmc\obj\Debug\ClnParcial2Mmc.pdb
